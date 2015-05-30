@@ -1,0 +1,16 @@
+-cp src 
+-cs out-cs
+-D net-ver=40 
+-main Main 
+
+-net-lib System.Drawing.dll@std
+-net-lib System.Xml.dll@std
+-net-lib Svg.dll
+
+#-net-lib pango-sharp.dll
+#-net-lib atk-sharp.dll
+#-net-lib gdk-sharp.dll
+#-net-lib gtk-sharp.dll
+#-net-lib glib-sharp.dll
+#-net-lib gtk-dotnet.dll
+#-net-lib Mono.Cairo.dll
