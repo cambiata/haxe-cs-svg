@@ -1,4 +1,4 @@
--cs out-mac
+-cs bin-mac
 
 -cp src 
 -main Main 
@@ -9,3 +9,8 @@
 -net-lib /Library/Frameworks/Mono.framework/Libraries/mono/4.0/System.Xml.dll
 -net-lib Svg.dll
 
+-cmd rm bin-mac/bin/System.Drawing.dll
+-cmd rm bin-mac/bin/System.Xml.dll
+
+-cmd cd bin-mac/bin/
+-cmd mono Main.exe
