@@ -1,0 +1,17 @@
+-cs bin-linux
+
+-cp src 
+-main Main 
+
+-D net-ver=40 
+
+-net-lib /usr/lib/mono/4.0/System.Drawing.dll
+-net-lib /usr/lib/mono/4.0/System.Xml.dll
+-net-lib Svg.dll
+
+-cmd rm bin-linux/bin/System.Drawing.dll
+-cmd rm bin-linux/bin/System.Xml.dll
+
+-cmd cd bin-linux/bin/
+-cmd mono Main.exe
+

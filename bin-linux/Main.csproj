@@ -8,10 +8,12 @@
     <RootNamespace></RootNamespace>
     <AssemblyName>Main</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-
-    <ProjectGuid>{8CBABF02-4604-4F1C-A317-026FEDA8403D}</ProjectGuid>
-
+    <!--TargetFrameworkProfile>Client</TargetFrameworkProfile-->
     <FileAlignment>512</FileAlignment>
+	<ProjectGuid>{C9FBC94F-85D7-4D96-BEA0-CA185DCC1271}</ProjectGuid>
+	<AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+	
+	
 	
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -51,16 +53,18 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.XML" />
   
   
     <Reference Include="System.Drawing">
-       <HintPath>/Library/Frameworks/Mono.framework/Libraries/mono/4.0/System.Drawing.dll</HintPath>
+       <HintPath>/usr/lib/mono/4.0/System.Drawing.dll</HintPath>
     </Reference>
   
   
   
     <Reference Include="System.Xml">
-       <HintPath>/Library/Frameworks/Mono.framework/Libraries/mono/4.0/System.Xml.dll</HintPath>
+       <HintPath>/usr/lib/mono/4.0/System.Xml.dll</HintPath>
     </Reference>
   
   

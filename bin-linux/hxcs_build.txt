@@ -1,4 +1,4 @@
-/Users/jonasmac/Documents/_dev/_cs/haxe-cs-svg
+/home/jonas/Documents/Haxe/haxe-cs-svg
 begin defines
 NET_20
 NET_21
@@ -751,7 +751,7 @@ end main
 begin resources
 end resources
 begin libs
-/Library/Frameworks/Mono.framework/Libraries/mono/4.0/System.Drawing.dll
-/Library/Frameworks/Mono.framework/Libraries/mono/4.0/System.Xml.dll
+/usr/lib/mono/4.0/System.Drawing.dll
+/usr/lib/mono/4.0/System.Xml.dll
 Svg.dll
 end libs
