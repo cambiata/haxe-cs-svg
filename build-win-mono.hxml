@@ -1,0 +1,16 @@
+-cs bin-win
+
+-cp src 
+-main Main 
+
+-D net-ver=40 
+-D verbose
+-D no-compilation
+
+-net-lib C:\Program Files (x86)\Mono\lib\mono\4.0\System.Drawing.dll
+-net-lib C:\Program Files (x86)\Mono\lib\mono\4.0\System.Xml.dll
+-net-lib Svg.dll
+
+-cmd win-compile-mono.bat
+
+-cmd win-run.bat
