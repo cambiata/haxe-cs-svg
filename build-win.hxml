@@ -1,0 +1,11 @@
+-cs bin-win
+
+-cp src 
+-main Main 
+
+-D net-ver=40 
+
+-net-lib System.Drawing.dll
+-net-lib System.Xml.dll
+-net-lib Svg.dll
+
