@@ -1,4 +1,4 @@
-F:\_dev\haxe-cs-svg
+/Users/jonasmac/Documents/_dev/_cs/haxe-cs-svg
 begin defines
 NET_20
 NET_21
@@ -141,8 +141,8 @@ M cs.system.drawing.drawing2d.LineJoin
 M System.Reflection.MethodBase
 M System.IConvertible
 M System.IEquatable`1
-M System.Drawing.Icon
-M System.Xml.XmlNamespaceManager
+M cs.system.drawing.Icon
+M cs.system.xml.XmlNamespaceManager
 M System.Xml.XmlCDataSection
 M cs.Ref
 M System.Text.EncoderFallback
@@ -153,7 +153,7 @@ M System.Runtime.InteropServices.SafeHandle
 M System.Reflection.Emit.PropertyBuilder
 M System.Drawing.Imaging.ImageCodecInfo
 M cs.system.globalization.DateTimeStyles
-M System.Xml.XmlTextWriter
+M cs.system.xml.XmlTextWriter
 M System.Reflection.Emit.Label
 M Svg.Transforms.SvgTransform
 M System.ComponentModel.ITypeDescriptorContext
@@ -202,7 +202,7 @@ M Svg.ISvgRenderer
 M cs.StdTypes
 M System.Reflection.ManifestResourceInfo
 M System.Delegate
-M System.Xml.XmlParserContext
+M cs.system.xml.XmlParserContext
 M svg.SvgStrokeLineCap
 M cs.system.drawing.imaging.MetafileType
 M System.Runtime.InteropServices._LocalBuilder
@@ -233,7 +233,7 @@ M System.Reflection.Emit.OpCode
 M cs.system.security.permissions.SecurityAction
 M cs.system.drawing.drawing2d.DashCap
 M System.Xml.Schema.XmlSchemaSimpleTypeContent
-M System.Drawing.Color
+M cs.system.drawing.Color
 M System.Security.Policy.PolicyStatement
 M System.UnhandledExceptionEventArgs
 M cs.system.componentmodel.MemberDescriptor
@@ -256,6 +256,7 @@ M System.NullReferenceException
 M cs.system.xml.xpath.XmlSortOrder
 M cs.system.reflection.ModuleResolveEventHandler
 M cs.system.xml.DtdProcessing
+M Mono.Xml.IHasXmlParserContext
 M svg.SvgFontVariant
 M Type
 E ValueType
@@ -375,6 +376,7 @@ M System.Runtime.InteropServices._Module
 M cs.system.runtime.remoting.contexts.CrossContextDelegate
 M haxe.ds.Vector
 M System.Type
+M System.Xml.IHasXmlChildNode
 M cs.system.xml.xpath.XPathNavigator
 M cs.system.reflection.emit.AssemblyBuilderAccess
 M System.Security.Permissions.StrongNamePublicKeyBlob
@@ -427,7 +429,7 @@ M cs.system.xml.schema.XmlSchemaUse
 M cs.system.drawing.imaging.EmfPlusRecordType
 M cs.system.ConsoleColor
 M cs.system.drawing.drawing2d.CompositingMode
-M System.Xml.XmlNode
+M cs.system.xml.XmlNode
 M System.Drawing.Size
 M haxe.PosInfos
 M cs.Flags
@@ -451,7 +453,7 @@ M System.Text.DecoderFallbackBuffer
 M System.Xml.XmlWriter
 M System.IComparable`1
 M System.Diagnostics.SymbolStore.ISymbolDocumentWriter
-M System.Xml.XPath.XPathNodeIterator
+M cs.system.xml.xpath.XPathNodeIterator
 M cs.system.DateTime
 M System.Security.AccessControl.FileSystemAuditRule
 M cs.system.security.permissions.PermissionState
@@ -672,7 +674,7 @@ M System.Xml.XmlAttribute
 M cs.system.globalization.NumberStyles
 M System.Runtime.InteropServices._FieldBuilder
 M cs.system.configuration.assemblies.AssemblyVersionCompatibility
-M System.Xml.Schema.XmlSchemaParticle
+M cs.system.xml.schema.XmlSchemaParticle
 M System.Xml.IXmlNamespaceResolver
 M cs.system.AppDomainInitializer
 M System.Decimal
@@ -749,5 +751,7 @@ end main
 begin resources
 end resources
 begin libs
+/Library/Frameworks/Mono.framework/Libraries/mono/4.0/System.Drawing.dll
+/Library/Frameworks/Mono.framework/Libraries/mono/4.0/System.Xml.dll
 Svg.dll
 end libs

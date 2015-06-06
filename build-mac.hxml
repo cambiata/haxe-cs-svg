@@ -1,0 +1,11 @@
+-cs out-mac
+
+-cp src 
+-main Main 
+
+-D net-ver=40 
+
+-net-lib /Library/Frameworks/Mono.framework/Libraries/mono/4.0/System.Drawing.dll
+-net-lib /Library/Frameworks/Mono.framework/Libraries/mono/4.0/System.Xml.dll
+-net-lib Svg.dll
+
